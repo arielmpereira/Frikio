@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero-animated d-flex align-items-center" id="hero-animated">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Contacto</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <form method="POST" action="{{ url_for('contacto') }}">
+        <div class="row">
+          {{ form.hidden_tag() }}
+          <div class="col-md-3">
+            {{ form.nombre.label }}
+          </div>
+          <div class="col-md-3">{{ form.nombre(size=32) }}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">{{ form.email.label }}</div>
+          <div class="col-md-3">{{ form.email(size=32) }}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">{{ form.mensaje.label }}</div>
+          <div class="col-md-3">{{ form.mensaje(rows=6) }}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-3">{{ form.submit() }}</div>
+        </div>
+        </div>
+      </form>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</section>
+{% endblock %}
