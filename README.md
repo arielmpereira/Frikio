@@ -13,6 +13,8 @@
 
 El objetivo principal de esta aplicación de comercio electrónico es crear una plataforma de venta en línea dedicada a la comercialización de remeras estampadas. Nuestro enfoque es ofrecer a los clientes una amplia variedad de diseños que reflejen sus gustos y personalidades. La aplicación permitirá a los usuarios explorar, seleccionar y comprar remeras con diseños únicos y auténticos.
 
+[![Watch the video](https://img.youtube.com/vi/vxfDUZ_6iTc/hqdefault.jpg)](https://www.youtube.com/embed/vxfDUZ_6iTc)
+
 **Público Objetivo:**
 
 La audiencia a la que nos dirigimos incluye hombres y mujeres con edades comprendidas entre 15 y 35 años. Estamos enfocados en atraer a personas interesadas en la moda creativa y la expresión personal a través de su ropa. Nuestra tienda se esfuerza por atraer a individuos que buscan diseños únicos y auténticos para complementar su estilo.
